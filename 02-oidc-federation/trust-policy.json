@@ -10,7 +10,7 @@
       "Condition": {
         "StringEquals": {
           "token.actions.githubusercontent.com:aud": "sts.amazonaws.com",
-          "token.actions.githubusercontent.com:sub": "repo:paycenonoli/aws-kubernetes-identity-lab:ref:refs/heads/main"
+          "token.actions.githubusercontent.com:sub": "repo:paycenonoli@119795130/aws-kubernetes-identity-lab@1432552954:ref:refs/heads/main"
         }
       }
     }
