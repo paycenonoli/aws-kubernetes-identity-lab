@@ -1,45 +1,3 @@
-
-cat > README.md <<'EOF'
-# AWS Kubernetes Identity Lab
-
-Hands-on labs exploring AWS identity, authentication, authorization,
-OIDC federation, and Kubernetes workload identity.
-
-## Objectives
-
-- Understand IAM users, roles, trust policies, and permission policies.
-- Use AWS STS to obtain temporary role credentials.
-- Configure OIDC federation for CI/CD without long-lived AWS keys.
-- Explore EKS authentication and Kubernetes RBAC.
-- Compare IRSA and EKS Pod Identity.
-- Apply least privilege and secure credential-handling practices.
-
-## Lab Environment
-
-- Windows with WSL Ubuntu
-- AWS CLI v2
-- Git and GitHub
-- AWS IAM and STS
-- GitHub Actions for the OIDC lab
-
-Cloud resources will be created only when needed. Each lab will include
-verification steps and cleanup instructions where applicable.
-
-## Repository Structure
-
-| Directory | Purpose |
-|---|---|
-| `01-iam-roles-sts/` | IAM roles, policies, and STS |
-| `02-oidc-federation/` | OIDC federation for CI/CD |
-| `03-kubeconfig-eks/` | EKS authentication and access |
-| `04-workload-identity/` | IRSA and EKS Pod Identity |
-| `05-enterprise-identity/` | Enterprise identity concepts |
-| `docs/` | Supporting documentation |
-| `scripts/` | Reusable lab scripts |
-| `evidence/` | Sanitized test evidence |
-
-## Labs
-
 ### Lesson 1 — IAM Roles and AWS STS
 
 Demonstrates role assumption, trust policies, permission policies,
@@ -83,4 +41,4 @@ Documentation is being added to the repository.
 
 This is a learning project. Review all policies and commands before
 using them in a production environment.
-EOF
+
