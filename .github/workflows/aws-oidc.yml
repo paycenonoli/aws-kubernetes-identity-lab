@@ -31,5 +31,4 @@ jobs:
         run: aws ec2 describe-regions --query 'Regions[].RegionName' --output table
 
       - name: List files in current directory
-        run: pwd
-        run: ls -al
+        run: pwd && ls -al
